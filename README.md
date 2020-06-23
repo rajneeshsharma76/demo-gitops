@@ -1,9 +1,7 @@
 # gitopsdemo How TO Use this Demo 
 A) Prerequisites
 
-1>Ensure that you have a running Kubernetes cluster 
-
-2>The cluster-admin role to deploy Flux CD.
+1>Ensure that you have a running Kubernetes cluster With cluster Admin Role.
 
 
 B) Install fluxctl:-----
