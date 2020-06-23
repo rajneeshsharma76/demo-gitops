@@ -29,7 +29,7 @@ Fork the rajneeshsharma76/gitopsdemo repository within your GitHub account.
 
 5)  Install fux on Kubernetes 
 
-fluxctl install --git-user=${GHUSER} --git-email=${GHUSER}@users.noreply.github.com --git-url=git@github.com:${GHUSER}/gitopsdemo --git-path=app,ns --namespace=flux | kubectl apply -f -
+fluxctl install --git-user=${GHUSER} --git-email=${GHUSER}@users.noreply.github.com --git-url=git@github.com:${GHUSER}/demo-gitops --git-path=app,ns --namespace=flux | kubectl apply -f -
 
 
 6) Check the deployment Status
