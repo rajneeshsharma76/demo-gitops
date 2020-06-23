@@ -62,6 +62,13 @@ fluxctl install --git-user=${GHUSER} --git-email=${GHUSER}@users.noreply.github.
  fluxctl sync --k8s-fwd-ns flux   This Command will Sync your changes and deploy it to Kubernetes Cluster 
  
  
- 10) make any change in index.hmtl you will see it will get deploy automatically to Kubernetes Cluster 
+ 10) To Deploy Changes 
+  a)make any change in index.hmtl .
+  
+  b)Build and  the Image .Push it to your Iamge repository .
+  
+  c)change the new ImageTag in Deployment.yaml.
+  
+  d)After 5 min Flux will automatically deploy the new image in Clsuter 
  
     
